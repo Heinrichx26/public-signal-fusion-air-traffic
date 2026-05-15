@@ -1,0 +1,3 @@
+target,bottom_decile_rate,top_decile_rate,top_bottom_ratio,top_bottom_diff,positive_rate_steps,positive_residual_steps,total_adjacent_steps,spearman_decile_rate,spearman_decile_residual
+cancellation,0.019196056160128948,0.07533554053250333,3.9245322009933767,0.05613948437237438,5,9,9,0.006060606060606061,1.0
+long_arrival_delay,0.09808285084024407,0.30967159670675776,3.15724506428903,0.2115887458665137,2,9,9,-0.2727272727272727,1.0

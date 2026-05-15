@@ -1,0 +1,7 @@
+evidence,metric,value,status,source_table
+Main-panel data closure,BTS On-Time Performance,12/12; issues 0,accepted,source_data_completeness_audit.csv
+Main-panel data closure,IEM ASOS hourly weather,120/120; issues 0,accepted,source_data_completeness_audit.csv
+Main-panel data closure,FAA ATCSCC parsed daily advisories,365/365; issues 0,accepted,source_data_completeness_audit.csv
+Main-panel data closure,FAA ATCSCC full-year combined advisories,1/1; issues 0,accepted,source_data_completeness_audit.csv
+ATCSCC timing audit,signature coverage,6539 records; 1.000 share,accepted,advisory_issue_time_audit.csv
+ATCSCC timing audit,lead min/max,-9/+36 min,accepted,advisory_issue_times.csv

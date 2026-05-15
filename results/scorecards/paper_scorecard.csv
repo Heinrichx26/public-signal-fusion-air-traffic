@@ -1,0 +1,23 @@
+evidence,metric,value,status,source_table
+Schedule-demand baseline increment,long_arrival_delay AUC gain,+0.049,accepted,baseline_ladder_gain_summary.csv
+Schedule-demand baseline increment,cancellation AUC gain,+0.070,accepted,baseline_ladder_gain_summary.csv
+Demand-adjusted residual risk,active residual diff.,+0.209,accepted,residual_state_validation.csv
+Demand-adjusted residual risk,post_3h residual diff.,+0.166,accepted,residual_state_validation.csv
+Direct ablation ladder,long_arrival_delay advisory_only,AUC 0.716; gain vs weather +0.049,accepted,direct_ablation_matrix.csv
+Direct ablation ladder,long_arrival_delay weather_advisory,AUC 0.719; gain vs weather +0.052,accepted,direct_ablation_matrix.csv
+Direct ablation ladder,long_arrival_delay schedule_demand_advisory,AUC 0.720; gain vs weather +0.054,accepted,direct_ablation_matrix.csv
+Direct ablation ladder,long_arrival_delay schedule_fused_state,AUC 0.720; gain vs weather +0.054,accepted,direct_ablation_matrix.csv
+Direct ablation ladder,cancellation advisory_only,AUC 0.721; gain vs weather +0.046,accepted,direct_ablation_matrix.csv
+Direct ablation ladder,cancellation weather_advisory,AUC 0.743; gain vs weather +0.068,accepted,direct_ablation_matrix.csv
+Direct ablation ladder,cancellation schedule_demand_advisory,AUC 0.737; gain vs weather +0.062,accepted,direct_ablation_matrix.csv
+Direct ablation ladder,cancellation schedule_fused_state,AUC 0.740; gain vs weather +0.065,accepted,direct_ablation_matrix.csv
+ATCSCC timing audit,signature coverage,6539 records; 1.000 share,accepted,advisory_issue_time_audit.csv
+ATCSCC timing audit,lead min/max,-9/+36 min,accepted,advisory_issue_times.csv
+Shifted-advisory placebo,active long_arrival_delay,obs +0.253; placebo max +0.004,accepted,placebo_shift_test.csv
+Shifted-advisory placebo,active cancellation,obs +0.052; placebo max +0.000,accepted,placebo_shift_test.csv
+Shifted-advisory placebo,post_3h long_arrival_delay,obs +0.210; placebo max +0.004,accepted,placebo_shift_test.csv
+Shifted-advisory placebo,post_3h cancellation,obs +0.044; placebo max -0.001,accepted,placebo_shift_test.csv
+Airport-day block bootstrap,active long_arrival_delay,"+0.253 [+0.239, +0.266]",accepted,block_bootstrap_ci.csv
+Airport-day block bootstrap,post_3h long_arrival_delay,"+0.210 [+0.197, +0.223]",accepted,block_bootstrap_ci.csv
+Airport-day block bootstrap,active cancellation,"+0.052 [+0.043, +0.062]",accepted,block_bootstrap_ci.csv
+Airport-day block bootstrap,post_3h cancellation,"+0.044 [+0.037, +0.053]",accepted,block_bootstrap_ci.csv

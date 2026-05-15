@@ -1,0 +1,6 @@
+task_id,task_name,definition
+Task 1,Residual state detection,"Rank airport-hours by residual operational state score; evaluate decile lift, residual monotonicity, and top-decile risk."
+Task 2,Long-delay prediction,"Predict the probability that scheduled arrivals in an airport-hour include arrivals delayed at least 60 min; evaluate AUC, PR-AUC, calibration, Brier score, and lift."
+Task 3,Cancellation prediction,"Predict the probability that scheduled arrivals in an airport-hour include cancellations; evaluate AUC, PR-AUC, calibration, Brier score, and lift."
+Task 4,Post-advisory persistence,Detect elevated disruption in post-advisory and clean-lag windows after advisory end.
+Task 5,Event-level validation,Aggregate airport-hour outcomes to GDP or GS advisory events and compare with matched non-advisory windows.
