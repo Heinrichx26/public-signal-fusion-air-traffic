@@ -1,8 +1,8 @@
-# Asynchronous Credal Residual Fusion for Operational State Inference in Air Traffic Disruptions
+# Asynchronous Residual-State Inference for Air Traffic Disruption Monitoring under Traffic-Management Actions
 
 This repository contains code, source-data instructions, field schemas, split definitions, baseline scores, and selected result tables for:
 
-**Asynchronous Credal Residual Fusion for Operational State Inference in Air Traffic Disruptions**
+**Asynchronous Residual-State Inference for Air Traffic Disruption Monitoring under Traffic-Management Actions**
 
 ## Data sources
 
@@ -18,7 +18,7 @@ The repository does not redistribute large raw source files. The `manifests/` di
 ## Repository layout
 
 - `src/data/`: source acquisition and parsing scripts.
-- `src/analysis/`: airport-hour panel construction, asynchronous credal residual fusion (ACRF), residual score, advisory-outcome hysteresis, event validation, and robustness scripts.
+- `src/analysis/`: airport-hour panel construction, asynchronous credal residual fusion (ACRF), residual score, advisory-outcome hysteresis, event validation, and robustness scripts for air traffic disruption monitoring.
 - `src/plotting/`: figure builders that read result tables.
 - `results/benchmark/`: benchmark field dictionary, tasks, split definitions, and baseline scores.
 - `results/scorecards/`: selected result tables.
@@ -71,7 +71,7 @@ To reconstruct raw-source inputs, use the source manifests in `manifests/` toget
 
 The package defines five evaluation tasks:
 
-1. Residual state detection.
+1. Residual-state monitoring.
 2. Long-delay prediction.
 3. Cancellation prediction.
 4. Post-advisory persistence.
